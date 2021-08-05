@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Honda CBR 300R</title>
+
+    <!---------------------- Bootstrap CSS Link CDN  ----------------------->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!---------------------- Vanila CSS Link  ----------------------->
+    <link rel="stylesheet" href="style.css">
+
+    <!---------------------- Font Awesome Link  ----------------------->
+    <script src="https://kit.fontawesome.com/5ee61e3497.js" crossorigin="anonymous"></script>
+
+    <!---------------------- Favicon Link  ----------------------->
+    <link rel="shortcut icon" href="images/favico.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <!---------------------- Navigation Bar Starts  ----------------------->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <div class="container nav-container flex-row-reverse flex-lg-row">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon fs-5"></span>
+                </button>
+                <a class="navbar-brand me-xl-5 fs-2 fw-bold" href="index.html">Honda</a>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo03">
+                    <div class="links">
+                        <ul class="navbar-nav justify-content-center align-items-center">
+                            <li class="nav-item">
+                                <a class="nav-link active text-white fw-normal" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white fw-normal" href="#">Product</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white fw-normal" href="#">News</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white fw-normal" href="#">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <button
+                                    class="btn login-btn p-1 fw-normal text-center rounded text-white fs-6">Login</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!---------------------- Navigation Bar Ends  ----------------------->
+
+        <!---------------------- Top Banner Section Starts  ----------------------->
+        <section class="top-banner">
+            <div class="container banner-container">
+                <div class="row row-cols-1 row-cols-md-2 gy-5 px-2 justify-content-center align-items-center">
+                    <div class="banner-text col d-flex flex-column justify-content-center">
+                        <p class="mb-3 pe-0 text-white fs-6 fw-light">Computer-controlled digital transistorized with
+                            electronic advanced</p>
+                        <h1 class="mb-3 text-white fs-1 fw-bold">Honda CBR 300R</h1>
+                        <p class="mb-4 text-white fs-6 fw-light">If you’ve got a soft spot for sportbike design and
+                            Grand
+                            Prix stylings, then the 2021 Honda CBR300R is your sweet spot between form and function.
+                            It’s
+                            narrow, light, and a total blast to ride around town and on twisty back roads.</p>
+                        <button type="button" class="btn purchase-btn p-2 fw-normal text-center rounded text-white fs-6"
+                            data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                            Purchase
+                        </button>
+
+                        <!---------------------- Modal Starts ----------------------->
+                        <div class="modal fade h-75" id="staticBackdrop" data-bs-backdrop="static"
+                            data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title fw-bold fs-5" id="staticBackdropLabel">Honda CBR 300R
+                                        </h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p class="fs-6 fw-normal">
+                                            <span
+                                                class="price p-2 fw-normal text-center rounded text-white fs-6">$4,699</span>
+                                            <br>
+                                            <span id="special" class="fw-normal fs-6">Estimated Price 2021</span>
+                                            <br>
+                                            <br>
+                                            If you’ve got a soft spot for sportbike design and Grand Prix stylings, then
+                                            the 2021 Honda CBR300R is your sweet spot between form and function. It’s
+                                            narrow, light, and a total blast to ride around town and on twisty back
+                                            roads. The single-cylinder engine offers great fuel economy, with smooth and
+                                            friendly torque delivery. And the affordable cost and responsive handling
+                                            makes it a terrific bike for first-time riders, and for those looking to
+                                            grow their garage. There’s even a version available with our anti-lock
+                                            braking system. Plus, this year the CBR300R brings hot new graphics in two
+                                            color choices. Time to get riding!
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <h6 class="text-start me-auto fs-6 fw-bold">Want to buy it?</h6>
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">No</button>
+                                        <button type="button" class="btn btn-primary">Yes</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!---------------------- Modal Ends ----------------------->
+                    </div>
+                    <div class="banner-img col d-flex justify-content-center align-items-center">
+                        <img src="images/header-bike.png" alt="" class="w-100">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!---------------------- Top Banner Section Ends  ----------------------->
+    </header>
+
+    <main>
+        <!---------------------- Featured Bike 2021 Section Starts  ----------------------->
+        <section class="feature-bikes">
+            <div class="container feature-bike-container px-4">
+                <div class="feature-text">
+                    <h1 class="text-center fs-2 fw-bold">Featured Bikes 2021</h1>
+                    <p class="text-center fw-bold">Best Bike Collections</p>
+                </div>
+                <div class="feature-img-container row align-items-center justify-content-between">
+                    <div class="col-lg-3 col-md-5 feature-img mt-5">
+                        <img src="images/feature-bike.jpg" alt="" class="w-100" id="grey">
+                    </div>
+                    <div class="col-lg-3 col-md-5 feature-img mt-5">
+                        <img src="images/feature-bike.jpg" alt="" class="w-100">
+                    </div>
+                    <div class="col-lg-3 col-md-5 feature-img mt-5">
+                        <img src="images/feature-bike.jpg" alt="" class="w-100" id="grey">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!---------------------- Featured Bike 2021 Section Ends  ----------------------->
+
+        <!---------------------- Clients Section Starts----------------------->
+        <section class="clients" style="margin-bottom: 150px;">
+            <div class="container clients-container">
+                <div class="clients-text" style="margin-bottom: 50px;">
+                    <h1 class="text-center fs-2 fw-bold">Happy <span id="special">Clients Says</span> </h1>
+                </div>
+                <div class="clients-card px-3">
+                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 gy-4">
+                        <div class="col px-3">
+                            <div class="card h-100 py-4">
+                                <img src="images/user-1.png" class="card-img-top w-50 m-auto" alt="...">
+                                <div class="card-body text-center pt-4 pb-0">
+                                    <p class="card-text fs-6 fw-normal">A 35cc hike makes one hell of a difference when
+                                        the starting
+                                        point was only 250cc. The CBR300R holds its own in traffic, offering plenty of
+                                        torque for such a small, light bike.</p>
+                                    <div class="starts">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                    <p class="card-name my-2 fw-bold">James Bond</p>
+                                    <p class="card-pos fw-bold m-0">Banker</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col px-3">
+                            <div class="card h-100 py-4">
+                                <img src="images/user-2.png" class="card-img-top w-50 m-auto" alt="...">
+                                <div class="card-body text-center pt-4 pb-0">
+                                    <p class="card-text fs-6 fw-normal">On the spec sheet it might be limited and appear
+                                        anachronistic,
+                                        but as a riding experience it offers something bigger bikes can’t – the need for
+                                        the rider to work for some reward.</p>
+                                    <div class="starts">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <p class="card-name my-2 fw-bold">Jolly Jones</p>
+                                    <p class="card-pos fw-bold m-0">Receptionist</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col px-3">
+                            <div class="card h-100 py-4">
+                                <img src="images/user-3.png" class="card-img-top w-50 m-auto" alt="...">
+                                <div class="card-body text-center pt-4 pb-0">
+                                    <p class="card-text fs-6 fw-normal">I'd suggest to changr the oil more frequently
+                                        than the
+                                        recommended 7500 intervals for improved durability. But I think the longevity of
+                                        the
+                                        outgoing CBR250 is good and can be better.</p>
+                                    <div class="starts">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                    <p class="card-name my-2 fw-bold">Kelly Drooza</p>
+                                    <p class="card-pos fw-bold m-0">Doctor</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <!---------------------- Client Scetion Ends  ----------------------->
+
+        <!---------------------- FAQ Section Starts  ----------------------->
+        <section class="faq" style="margin-bottom: 150px;">
+            <div class="container">
+                <div class="faq-heading" style="margin-bottom: 50px;">
+                    <h1 class="text-center fs-2 fw-bold">Frequently Asked <span id="special">Questions</span> </h1>
+                </div>
+                <div class="faq-main row row-cols-1 row-cols-md-2 gy-4 px-3">
+                    <div class="faq-img d-flex align-items-center justify-content-center col">
+                        <img src="images/faq.png" alt="">
+                    </div>
+                    <div class="faq-questions d-flex align-items-center justify-content-center col">
+                        <div class="accordion w-100" id="accordionExample">
+                            <div class="accordion-item mb-4">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        What are the most important things I should know about riding a bike?
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Safety First! Always obey the rules of the road. Obey all traffic signals,
+                                        signs, and laws. Get in the mindset of “driving” your bike—not just “riding”
+                                        your bike. This will help you be a more focused and legally compliant bike
+                                        rider.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item mb-4">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed fw-bold" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                                        aria-controls="collapseTwo">
+                                        How can I tell if my helmet is old and I need a
+                                        new one?
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Bear in mind that if the helmet did its job most people would tell you that they
+                                        did not even hit their head, or did not hit their head that hard. And the thin
+                                        shells on most helmets now tend to hide any dents in the foam. But if you can
+                                        see marks on the shell or measure any foam crush at all, replace the helmet.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item mb-4">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed fw-bold" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        My bike has been in storage is it safe to ride?
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Leaving your bike outside for a day or two won't do major damage. You may see
+                                        signs of rust after a week of neglect. After one month in bad conditions, your
+                                        beloved bike parts will start to degrade.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFour">
+                                    <button class="accordion-button collapsed fw-bold" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
+                                        aria-controls="collapseFour">
+                                        What rules should I follow when riding my bike?
+                                    </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Be visible at all times. Wear bright and visible clothes. Reflective stripes ads
+                                        viability. Always stay out of blind zones. Alert other drivers before entering
+                                        their blind zone.
+                                        Be predictable. Others on the road must be able to predict your next move. Give
+                                        proper signals before changing a lane or taking deviation.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!---------------------- FAQ Section Ends  ----------------------->
+
+        <!---------------------- Gallery Section Starts  ----------------------->
+        <section class="gallery-container" style="margin-bottom: 150px;">
+            <div class="container">
+                <h1 class="text-center fs-2 fw-bold mb-5">Photos <span id="special">Album</span> </h1>
+                <div class="gallery">
+                    <div class="row gy-4 px-2">
+                        <div class="col-md-6 col-lg-4">
+                            <img src="images/gallery-1.jpg" alt="" class="w-100">
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <img src="images/gallery-2.jpg" alt="" class="w-100">
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <img src="images/gallery-3.jpg" alt="" class="w-100">
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <img src="images/gallery-4.jpg" alt="" class="w-100">
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <img src="images/gallery-5.jpg" alt="" class="w-100">
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <img src="images/gallery-6.jpg" alt="" class="w-100">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!---------------------- Gllery Section Ends  ----------------------->
+
+        <!---------------------- Key Features Section Starts  ----------------------->
+        <section class="key-features" style="margin-top: 150px;">
+            <div class="container">
+                <h1 class="text-center fs-2 fw-bold mb-5">Key <span id="special">Features</span> </h1>
+                <div class="row row-cols-1 row-cols-md-2 justify-content-center gy-5 px-2">
+                    <div class="key-features-img col d-flex align-items-center justify-content-center">
+                        <img src="images/bike-1.png" alt="" class="w-100">
+                    </div>
+                    <div class="key-features-container col d-flex flex-column justify-content-evenly">
+                        <div class="bar mb-4">
+                            <div class="bar-text d-flex justify-content-between">
+                                <p class="fw-normal mb-1">Performance</p>
+                                <p class="fw-normal mb-1">9.7</p>
+                            </div>
+                            <div class="progress rounded-3" style="height: 10px;">
+                                <div class="progress-bar" role="progressbar" style="width: 97%;" aria-valuenow="25"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="bar mb-3">
+                            <div class="bar-text d-flex justify-content-between">
+                                <p class="fw-normal mb-1">Durability</p>
+                                <p class="fw-normal mb-1">9.2</p>
+                            </div>
+                            <div class="progress rounded-3" style="height: 10px;">
+                                <div class="progress-bar" role="progressbar" style="width: 92%" aria-valuenow="25"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="bar mb-3">
+                            <div class="bar-text d-flex justify-content-between">
+                                <p class="fw-normal mb-1">Braking</p>
+                                <p class="fw-normal mb-1">9.4</p>
+                            </div>
+                            <div class="progress rounded-3" style="height: 10px;">
+                                <div class="progress-bar" role="progressbar" style="width: 94%" aria-valuenow="25"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="bar mb-3">
+                            <div class="bar-text d-flex justify-content-between">
+                                <p class="fw-normal mb-1">Suspension</p>
+                                <p class="fw-normal mb-1">8.1</p>
+                            </div>
+                            <div class="progress rounded-3" style="height: 10px;">
+                                <div class="progress-bar" role="progressbar" style="width: 81%" aria-valuenow="25"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="bar mb-3">
+                            <div class="bar-text d-flex justify-content-between">
+                                <p class="fw-normal mb-1">Mileage</p>
+                                <p class="fw-normal mb-1">7.9</p>
+                            </div>
+                            <div class="progress rounded-3" style="height: 10px;">
+                                <div class="progress-bar" role="progressbar" style="width: 79%" aria-valuenow="25"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="bar mb-3">
+                            <div class="bar-text d-flex justify-content-between">
+                                <p class="fw-normal mb-1">Features</p>
+                                <p class="fw-normal mb-1">8.8</p>
+                            </div>
+                            <div class="progress rounded-3" style="height: 10px;">
+                                <div class="progress-bar" role="progressbar" style="width: 88%" aria-valuenow="25"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="bar">
+                            <div class="bar-text d-flex justify-content-between">
+                                <p class="fw-normal mb-1">Service Centers</p>
+                                <p class="fw-normal mb-1">6.2</p>
+                            </div>
+                            <div class="progress rounded-3" style="height: 10px;">
+                                <div class="progress-bar" role="progressbar" style="width: 62%" aria-valuenow="25"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!---------------------- Key Features Section Ends  ----------------------->
+    </main>
+
+    <footer>
+        <p class="text-center m-0 pt-5 pb-2 fw-light text-white">©Rahat Khan Pathan. All rights reserved.</p>
+    </footer>
+
+    <!---------------------- Bootstrap Javascript Link CDN  ----------------------->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

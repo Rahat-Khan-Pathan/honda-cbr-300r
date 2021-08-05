@@ -1,0 +1,128 @@
+/*------------------ Google Font Link  --------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+
+/*------------------ Common Styles  --------------------*/
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 180%;
+}
+#special {
+  color: #e76f51;
+}
+
+
+/*------------------ Navigation Bar Styles  --------------------*/
+.navbar {
+  background-color: #264653;
+}
+.navbar-brand {
+  color: #e76f51 !important;
+}
+.login-btn {
+  width: 80px;
+  background-color: #e76f51;
+}
+.nav-link::after {
+  content: "";
+  background-color: #e76f51;
+  width: 0%;
+  height: 3px;
+  display: block;
+  margin: auto;
+  transition: 0.3s;
+}
+.nav-link:hover::after {
+  width: 100%;
+}
+.navbar-toggler {
+  background: rgba(255, 255, 255, 0.89);
+}
+
+
+/*------------------ Top Banner Section Styles  --------------------*/
+.top-banner {
+  background-color: #264653;
+  margin-bottom: 80px;
+}
+.banner-container .row {
+  padding-top: 120px;
+  padding-bottom: 70px;
+}
+.purchase-btn {
+  width: 170px;
+  background-color: #e76f51;
+}
+.price {
+  background-color: #e76f51;
+}
+
+
+/*------------------ Featured Bikes Section Styles  --------------------*/
+.feature-bikes {
+  margin-bottom: 150px;
+}
+.feature-text p {
+  color: #e76f51;
+  font-size: 14px;
+}
+#grey {
+  filter: grayscale(100%);
+}
+
+
+/*------------------ Clients Section Styles  --------------------*/
+.card {
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px 0.5px rgb(218, 214, 214);
+}
+.card-text {
+  color: #6c6c6c;
+}
+.card-name {
+  color: #23a6f0;
+}
+.card-pos {
+  color: #252b42;
+}
+.fa-star {
+  color: #e76f51;
+}
+
+
+/*------------------ FAQ Section Styles  --------------------*/
+.faq-img img {
+  width: 80%;
+}
+.accordion-item {
+  border: 1px solid #86b7fe;
+  border-top: none;
+}
+.accordion-button {
+  border-top: 1px solid #86b7fe;
+}
+.accordion-body {
+  color: #7e848c;
+}
+
+
+/*------------------ Gallery Section Styles  --------------------*/
+.gallery img {
+  border-radius: 10px;
+}
+
+
+/*------------------ Key Features Section Styles  --------------------*/
+.progress-bar {
+  background: #264653;
+}
+
+
+/*------------------ Footer Styles  --------------------*/
+footer {
+  background: #264653;
+  margin-top: 100px;
+}
+footer p {
+  font-size: 0.8rem;
+}
